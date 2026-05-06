@@ -2,12 +2,7 @@ import streamlit as st
 import pandas as pd
 from ortools.sat.python import cp_model
 import time
-# =========================================================
-# 2. NGROK TOKENİNİZİ TANIMLAYIN (BURASI ÇOK ÖNEMLİ)
-# =========================================================
-from pyngrok import ngrok
-# Örn: ngrok.set_auth_token("2abc123XYZ...")
-ngrok.set_auth_token("3DLf70ziIi1AZxt0XgqDsIOZWf0_dMcYtE2DAcpXEQPe4ZZU")
+
 # =========================================================
 # 3. STREAMLIT UYGULAMA DOSYASININ YAZILMASI
 # =========================================================
