@@ -1,10 +1,7 @@
-# =========================================================
-# 1. ESKİ YARIM KALAN BAĞLANTILARI TEMİZLE VE YENİLERİ KUR
-# =========================================================
-!pkill streamlit
-!pkill ngrok
-!pip install streamlit pyngrok ortools -q
-
+import streamlit as st
+import pandas as pd
+from ortools.sat.python import cp_model
+import time
 # =========================================================
 # 2. NGROK TOKENİNİZİ TANIMLAYIN (BURASI ÇOK ÖNEMLİ)
 # =========================================================
